@@ -31,6 +31,8 @@ html {
   background-color: var(--purple-medium-3);
 }
 body {
+  display: flex;
+  flex-direction: column;
   background-color: var(--purple-light-1);
   color: var(--purple-dark-2);
   font-family: var(--font-family-text);
@@ -310,7 +312,6 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* justify-content: space-between; */
   flex-wrap: wrap;
   gap: 10px;
   padding: 32px 24px;
@@ -399,13 +400,11 @@ footer {
 /* Footer */
 footer {
   width: 100%;
-  position: absolute;
   background-color: var(--purple-medium-3);
   color: var(--purple-light-2);
   text-align: center;
   height: 48px;
   display: flex;
-  bottom: 0;
   justify-content: center;
   align-items: center;
   align-self: flex-end;
@@ -426,9 +425,9 @@ footer {
   body {
     position: relative;
     max-width: 750px;
-    max-height: 1334px;
     margin: 0 auto;
     border: 1px solid white;
+    padding: 15px 0;
   }
   .header-container--long {
     max-width: 746px;
@@ -443,8 +442,11 @@ footer {
   .relatedMovies-scrollContainer {
     width: 100%;
     left: 0;
-    height: 200px;
     padding: 15px;
     background: white;
+  }
+  footer {
+    position: absolute;
+    bottom: 0;
   }
 }

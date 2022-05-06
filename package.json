@@ -1,0 +1,24 @@
+{
+  "name": "proyecto-api-rest-practic",
+  "version": "1.0.0",
+  "description": "Proyecto del curso practico de consumo de API REST con JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chrxs14/proyecto-api-rest-practic.git"
+  },
+  "keywords": [
+    "api-rest",
+    "javascript",
+    "movie"
+  ],
+  "author": "Chrxs14",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Chrxs14/proyecto-api-rest-practic/issues"
+  },
+  "homepage": "https://github.com/Chrxs14/proyecto-api-rest-practic#readme"
+}

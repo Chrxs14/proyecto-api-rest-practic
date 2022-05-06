@@ -49,6 +49,7 @@ function homePage() {
   categoriesPreviewSection.classList.remove("inactive");
   genericSection.classList.add("inactive");
   movieDetailSection.classList.add("inactive");
+  footer.classList.remove("inactive");
 
   getTrendingMoviesPreview();
   getCategoriesPreview();
@@ -67,6 +68,7 @@ function trendsPage() {
   categoriesPreviewSection.classList.add("inactive");
   genericSection.classList.remove("inactive");
   movieDetailSection.classList.add("inactive");
+  footer.classList.add("inactive");
 
   getTrendingMovies();
   headerCategoryTitle.textContent = "trends";
@@ -82,6 +84,7 @@ function categoriesPage() {
   headerTitle.classList.add("inactive");
   headerCategoryTitle.classList.remove("inactive");
   searchForm.classList.add("inactive");
+  footer.classList.add("inactive");
 
   trendingPreviewSection.classList.add("inactive");
   categoriesPreviewSection.classList.add("inactive");
@@ -114,6 +117,7 @@ function movieDetailsPage() {
   categoriesPreviewSection.classList.add("inactive");
   genericSection.classList.add("inactive");
   movieDetailSection.classList.remove("inactive");
+  footer.classList.add("inactive");
   console.log("MOVIE!!");
 
   const [_, movieId] = location.hash.split("=");
@@ -133,6 +137,7 @@ function searchPage() {
   categoriesPreviewSection.classList.add("inactive");
   genericSection.classList.remove("inactive");
   movieDetailSection.classList.add("inactive");
+  footer.classList.add("inactive");
   console.log("SEARCH!!");
 
   const [_, query] = location.hash.split("=");

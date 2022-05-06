@@ -442,6 +442,7 @@ footer {
   .relatedMovies-scrollContainer {
     width: 100%;
     left: 0;
+    height: 225px;
     padding: 15px;
     background: white;
   }
